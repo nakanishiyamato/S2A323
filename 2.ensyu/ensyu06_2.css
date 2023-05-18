@@ -1,0 +1,44 @@
+header {
+  background-color: blue;
+  height: 100px;
+}
+nav {
+  background-color: yellow;
+  float: left;
+  width: 30%;
+  height: 200px;
+}
+#art {
+  background-color: red;
+  float: right;
+  width: 70%;
+  height: 200px;
+}
+footer {
+  clear: both;
+  background-color: gray;
+  height: 50px;
+}
+#art2 {
+  background-color: green;
+  float: right;
+  width: 70%;
+  height: 200px;
+}
+a:link {
+  color: black;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  border: solid 1px black;
+}
+.btn {
+  display: inline-block;
+  background-color: wheat;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 16px;
+  margin: 5px;
+  border: 1px dashed #000000;
+}
