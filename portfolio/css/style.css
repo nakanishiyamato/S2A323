@@ -316,6 +316,28 @@ Skill
 }
 
 /*--------------------------------
+photo
+---------------------------------*/
+.box-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.box-row img{
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 5px;
+
+}
+@media screen and (max-width: 780px){
+  .box-row{
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/*--------------------------------
 About
 ---------------------------------*/
 .about-content {
