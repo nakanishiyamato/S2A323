@@ -19,7 +19,10 @@
           <nav class="headerheader-nav">
             <ul class="header-nav-list">
               <li class="header-nav-item"><a href="#works">WORKS</a></li>
+              <li class="header-nav-item"><a href="#ABOUT">ABOUT</a></li>
               <li class="header-nav-item"><a href="#skill">SKILL</a></li>
+              <li class="header-nav-item"><a href="#PHOTO">PHOTO</a></li>
+              <li class="header-nav-item"><a href="#CONTACT">CONTACT</a></li>
               <li class="header-nav-item"><a href="sub.html">SUB</a></li>
             </ul>
           </nav>
@@ -68,7 +71,6 @@
               <a class="works-item btn-denim" href="ensyu08_1.html">ENSYU 08-1</a>
               <a class="works-item btn-denim" href="ensyu08_2.html">ENSYU 08-2</a>
               <a class="works-item btn-denim" href="ensyu09_1.html">ENSYU 09-1</a>
-              <a class="works-item btn-denim" href="ensyu09_2.html">ENSYU 09-2</a>
 
               <a class="works-item btn-box" href="#">CHALLENGE1</a>
               <a class="works-item btn-box" href="#">CHALLENGE2</a>
@@ -78,6 +80,33 @@
         <!-- /works -->
 
         <!-- /about -->
+        <section class="ABOUT section" id="ABOUT">
+          <div class="inner">
+            <h2 class="title">ABOUT</h2>
+            <table>
+              <tr>
+                <th>趣味</th>
+                <td>古着集め</td>
+              </tr>
+              <tr>
+                <th>アルバイト</th>
+                <td>ツルハドラッグ</td>
+              </tr>
+              <tr>
+                <th>部活動</th>
+                <td>なし</td>
+              </tr>
+              <tr>
+                <th>自己啓発</th>
+                <td>国家試験</td>
+              </tr>
+              <tr>
+                <th>信条</th>
+                <td>努力しても必ずしも報われない</td>
+              </tr>
+            </table>
+          </div>
+        </section>
         <!-- skill -->
         <section class="skill section" id="skill">
           <div class="inner">
@@ -131,10 +160,9 @@
           </div>
         </section>
         <!-- /photo-->
-        <section class="photo section" id="photo">
+        <section class="PHOTO section" id="PHOTO">
           <div class="inner">
             <h2 class="title">PHOTO</h2>
-
             <div class="box-row">
               <div><img src="aig-ai230112023-xl_TP_V4.jpg" alt="" /></div>
               <div><img src="RED2020906073_TP_V4.jpg" alt="" /></div>
@@ -147,8 +175,38 @@
             </div>
           </div>
         </section>
-        <!-- /skill -->
-
+        <!-- / -->
+        <section class="CONTACT section" id="CONTACT">
+          <from action="CONTACT">
+            <h2 class="title">CONTACT</h2>
+            <div class="contact-form">
+              <div class="contact-item">
+                <p class="form-title">お名前<span class="must">必須</span></p>
+                <input type="text" name="username" />
+              </div>
+              <div class="contact-item">
+                <p class="form-title">メールアドレス<span class="must">必須</span></p>
+                <input type="email" name="mail" />
+              </div>
+              <div class="contact-item">
+                <p class="form-title">電話番号></p>
+                <input type="tel" name="tel" />
+              </div>
+              <div class="contact-item">
+                <p class="form-title">お問い合わせ<span class="must">必須</span></p>
+                <textarea name="remarks" cols="40" rows="4" maxlength="40"></textarea>
+              </div>
+              <div class="btn-item">
+                <input
+                  class="btn"
+                  type="submit"
+                  onclick="alert('sendnow!');return false;"
+                  value="送信"
+                />
+              </div>
+            </div>
+          </from>
+        </section>
         <div class="page-top" id="js-page-top">
           <span class="material-icons-outlined">Page Top</span>
         </div>
